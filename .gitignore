@@ -1,10 +1,10 @@
 # node modules
-backend/node_modules/
-frontend/node_modules/
+praktikum-1/backend/node_modules/
+praktikum-1/frontend/node_modules/
 
 # build files
-backend/compiler
-frontend/dist/
+praktikum-1/backend/compiler
+praktikum-1/frontend/dist/
 
 # env
 .env
