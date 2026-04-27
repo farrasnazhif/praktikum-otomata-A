@@ -1,4 +1,0 @@
-int x = a + b;
-if (x != 0 && x >= 5) {
-    // cek nilai
-}
