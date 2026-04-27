@@ -39,3 +39,4 @@ Aturan transisi dari satu state ke state lainnya adalah sebagai berikut:
    - Jika berhenti di state **`B`**, maka program mencetak status **ACCEPTED**.
    - Jika berhenti di state **`S`**, **`A`**, atau **`C`**, program mencetak status **REJECTED**.
 5. Jika ada karakter selain `0` atau `1` yang dimasukkan, program akan langsung memberhentikan proses dengan pesan error.
+6. Program berjalan dalam *infinite loop* interaktif dan baru akan berhenti jika user menginputkan kata `exit` atau `quit`.
