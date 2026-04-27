@@ -1,0 +1,16 @@
+# node modules
+backend/node_modules/
+frontend/node_modules/
+
+# build files
+backend/compiler
+frontend/dist/
+
+# env
+.env
+
+# logs
+*.log
+
+# mac / system
+.DS_Store
