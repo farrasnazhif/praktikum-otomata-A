@@ -16,7 +16,7 @@ int main() {
 
     stack[top] = 'Z';
 
-    // Print initial step
+    // print initial step
     printf("STEP %d q%d %s %.*s\n", step++, state, len > 0 ? input : "ε", top+1, stack);
 
     while (pos < len) {

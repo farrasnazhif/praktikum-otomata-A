@@ -1,4 +1,4 @@
-# Pushdown Automata (PDA) Simulator
+# PDA Simulator
 
 Simulator berbasis web untuk Pushdown Automata yang mensimulasikan bahasa **L = { aⁿbⁿ | n ≥ 1 }**.
 
