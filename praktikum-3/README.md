@@ -19,7 +19,7 @@ npm install
 npm start
 ```
 
-Backend berjalan di `http://localhost:3001`.
+Backend jalan di `http://localhost:3001`.
 
 ### 3. Jalankan Frontend
 
@@ -29,7 +29,7 @@ npm install
 npm run dev
 ```
 
-Frontend berjalan di `http://localhost:5173`. Buka URL tersebut di browser.
+Frontend jalan di `http://localhost:5173`. Buka di browser.
 
 ## Cara Kerja
 
