@@ -1,16 +1,16 @@
-# node modules
-praktikum-1/backend/node_modules/
-praktikum-1/frontend/node_modules/
-
-# build files
-praktikum-1/backend/compiler
-praktikum-1/frontend/dist/
-
-# env
-.env
-
-# logs
-*.log
-
-# mac / system
+node_modules/
+dist/
 .DS_Store
+
+# Praktikum 1 - Compiler
+praktikum-1/backend/compiler
+praktikum-1/backend/input.txt
+
+# Praktikum 3 - PDA Simulator
+praktikum-3/backend/pda
+praktikum-3/backend/input.txt
+
+# Python
+__pycache__/
+*.pyc
+.env
