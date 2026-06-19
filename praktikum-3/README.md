@@ -37,11 +37,11 @@ Frontend berjalan di `http://localhost:5173`. Buka URL tersebut di browser.
 
 Program ini mensimulasikan PDA dengan 3 state:
 
-| State | Deskripsi                                         |
-| ----- | ------------------------------------------------- |
-| q0    | State awal — membaca huruf `a`, push `A` ke stack |
-| q1    | Membaca huruf `b`, pop `A` dari stack             |
-| q2    | State akhir (accept)                              |
+| State | Deskripsi                                     |
+| ----- | --------------------------------------------- |
+| q0    | State awal: baca huruf `a`, push `A` ke stack |
+| q1    | Baca huruf `b`, pop `A` dari stack            |
+| q2    | State akhir (accept)                          |
 
 **Aturan transisi:**
 
