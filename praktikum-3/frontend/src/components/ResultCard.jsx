@@ -1,11 +1,13 @@
-import styles from './ResultCard.module.css';
+import styles from "./ResultCard.module.css";
 
 export default function ResultCard({ result }) {
-  if (!result) return null;
-  const accepted = result === 'accepted';
+  if (result === null) return null;
+
   return (
-    <div className={`${styles.card} ${accepted ? styles.accepted : styles.rejected}`}>
-      {accepted ? 'Accepted' : 'Rejected'}
+    <div
+      className={`${styles.card} ${result ? styles.accepted : styles.rejected}`}
+    >
+      {result ? "Accepted" : "Rejected"}
     </div>
   );
 }
